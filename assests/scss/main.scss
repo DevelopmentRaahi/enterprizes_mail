@@ -383,7 +383,11 @@ $des_heading_color: #5b72a0;
 }
 
 // price box styling
-
+.price_main_row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 .price_box {
   // background-color: rgba(128, 128, 128, 0.181);
   border: 1px solid rgba(9, 61, 167, 1);
