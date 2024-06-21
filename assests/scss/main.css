@@ -885,7 +885,7 @@ body {
 
 .team_section-bg {
   margin: 2rem 0;
-  background-color: rgba(0, 0, 0, 0.835);
+  background-color: #26528C;
   transform: skewY(-2deg);
   padding: 3rem 0rem;
 }
@@ -897,6 +897,15 @@ body {
   display: grid;
   justify-content: center;
   margin: 0 auto;
+}
+.main_title-heading .paragraph {
+  color: #fff;
+  margin: 0 auto;
+  font-weight: 400;
+  max-width: 767px;
+  padding: 0.5rem 1rem;
+  border-radius: 0.4rem;
+  text-align: center;
 }
 .main_title-heading .paragrap {
   background-color: rgba(13, 39, 67, 0.68);
@@ -926,7 +935,7 @@ body {
 
 .main-box {
   padding: 1rem 0.7rem;
-  background-color: rgba(17, 18, 19, 0.68);
+  background-color: #3169B4;
   position: relative;
   border-radius: 1rem;
   margin-bottom: 2.3rem;
@@ -957,9 +966,9 @@ body {
   font-size: 2rem;
 }
 .main-box p {
-  color: #b4b2b2;
+  color: #f3e3cd;
   font-weight: 400;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 .main-box a {
   text-decoration: none;
@@ -982,10 +991,10 @@ body {
     font-size: 60%;
   }
   .main-box h3 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .main-box p {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
   }
   .main-box a {
     font-size: 1.6rem;
