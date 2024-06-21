@@ -26,13 +26,13 @@ h6 {
 }
 
 * {
-  font-family: "Barlow Semi Condensed", sans-serif;
+ 
   scroll-behavior: smooth;
 }
 
 
 html {
-  font-size: 62.5%;
+font-size: 13px;
 
 }
 
@@ -62,7 +62,7 @@ $one_two_three_color: rgb(255 89 18);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100%;
+  // height: 100%;
   // display: grid;
   // justify-content: center;
   // align-items: center;
@@ -167,7 +167,26 @@ $one_two_three_color: rgb(255 89 18);
   }
 }
 
+
 //linux window btn
+.microsoft-office_btn{
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+  column-gap: 1rem;
+  img{
+    width: 4rem;
+    
+  }
+  span{
+      font-size: 3rem;
+      font-weight: 700;
+      color: #003666;
+      
+    }
+}
+
 .linux_window_btn {
   display: flex;
   justify-content: center;
@@ -323,7 +342,7 @@ $des_heading_color: #5b72a0;
 
 .desc_section_bg {
   // background-color: rgb(250, 251, 255);
-  padding: 7rem 0rem;
+  padding: 1rem 1rem 0rem;
   // background: url('https://domgys.in/images/faq-bg.jpg');
 
   .first_section_para {
@@ -481,16 +500,17 @@ $des_heading_color: #5b72a0;
 
   .price_specs {
     display: grid;
+    
     justify-content: center;
-    align-items: center;
-    margin: 0;
+    align-content: center;
+    margin: 1rem auto;
     padding: 0;
 
-    li {
-      font-size: 1.2rem !important;
+    li , i {
+      font-size: 1.4rem  !important ;
 
       i {
-        font-size: 1.6rem;
+       
         color: $add_cart_color;
         margin-right: 0.7rem;
         font-weight: 800;
@@ -635,9 +655,7 @@ $des_heading_color: #5b72a0;
 }
 
 @media only screen and (min-width: 600px) {
-  html {
-    font-size: 80.5%;
-  }
+ 
 
   .price_specs {
     li {
@@ -647,9 +665,7 @@ $des_heading_color: #5b72a0;
 }
 
 @media only screen and (max-width: 787px) {
-  html {
-    font-size: 80.5%;
-  }
+ 
 
   .row-design_gap .first_section {
     position: relative;
@@ -710,10 +726,7 @@ $des_heading_color: #5b72a0;
 }
 
 @media only screen and (max-width: 878px) {
-  html {
-    font-size: 80.5%;
-  }
-
+ 
   .row-design_gap .first_section {
     position: relative;
     margin: 0rem 1rem;
@@ -746,7 +759,7 @@ $des_heading_color: #5b72a0;
   }
 }
 
-$offer_bg_color: rgb(252 252 252 / 47%);
+$offer_bg_color: rgb(226 241 248 / 47%);;
 $btn_pric_color: #099f7c;
 $add_cart_color: #4e84c6;
 
@@ -821,8 +834,8 @@ $add_cart_color: #4e84c6;
 
   h4 {
     text-align: center;
-    font-size: 2.5rem;
-    font-weight: 700;
+    font-size: 2.1rem;
+    font-weight: 600;
     color: $heading_color;
   }
 
@@ -836,7 +849,8 @@ $add_cart_color: #4e84c6;
 
   .accordion-button {
     font-size: 1.1rem;
-    font-weight: 600;
+    font-weight: 500;
+    padding: 2rem 1rem;
 
     &:focus {
       box-shadow: none !important;
@@ -845,7 +859,7 @@ $add_cart_color: #4e84c6;
 
   .collapsed {
     font-size: 1.1rem;
-    font-weight: 600;
+    font-weight: 500;
   }
 
   .accordion-body {
@@ -1137,11 +1151,14 @@ $add_cart_color: #4e84c6;
 // 🚀 Innovative solutions start
 .team_section {
   &-bg {
-    background-color: rgb(9, 64, 100);
+    margin: 2rem 0;
+    background-color: rgba(0, 0, 0, 0.835);
+    transform: skewY(-2deg);
+    padding: 3rem 0rem;
 
-
-    &-1 {
-      padding: 3rem 0rem;
+    &-1 > * {     
+      transform: skewY(2deg);
+    
     }
   }
 }
@@ -1152,7 +1169,7 @@ $add_cart_color: #4e84c6;
   margin: 0 auto;
 
   .paragrap {
-    background-color:#0d3656;
+    background-color:rgba(13, 39, 67, 0.68);
     color: #fff;
     margin: 0 auto;
     font-weight: 400;
@@ -1181,7 +1198,7 @@ $add_cart_color: #4e84c6;
 .main-box {
   // border: 1px solid #fff;
   padding: 1rem 0.7rem;
-  background-color: #0b233875;
+  background-color:rgb(17 18 19 / 68%);
   position: relative;
   border-radius: 1rem;
   margin-bottom: 2.3rem;
@@ -1256,5 +1273,14 @@ $add_cart_color: #4e84c6;
       font-size: 1.6rem;
     }
   }
+}
+// enterprise_section
+
+.enterprise_section{
+  h1{
+    // font-family: "Montserrat", sans-serif;
+    font: 600 2.4rem "Montserrat", sans-serif;
+  }
+  
 }
 // 🚀 Innovative solutions start
