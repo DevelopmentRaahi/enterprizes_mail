@@ -1172,6 +1172,18 @@ $add_cart_color: #4e84c6;
   justify-content: center;
   margin: 0 auto;
 
+
+.paragraph {
+  color: #fff;
+    margin: 0 auto;
+    font-weight: 400;
+    max-width: 767px;
+    padding: 0.5rem 1rem;
+    border-radius: 0.4rem;
+    text-align: center;
+}
+
+
   .paragrap {
     background-color:rgba(13, 39, 67, 0.68);
     color: #fff;
@@ -1195,6 +1207,8 @@ $add_cart_color: #4e84c6;
     padding: 2rem 0 3rem 0;
     width: 80%;
   }
+
+
 }
 .row_gap-2{
   margin: 3rem 0;
